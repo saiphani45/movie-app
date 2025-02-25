@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import "../css/Navbar.css";
+import "./Navbar.css";
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

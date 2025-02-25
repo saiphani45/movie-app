@@ -1,7 +1,7 @@
-import "../css/Home.css";
-import MovieCard from "../components/MovieCard";
+import "./Home.css";
+import MovieCard from "../../components/Moviecard/MovieCard";
 import { useState, useEffect } from "react";
-import { searchMovies, getPopularMovies } from "../services/api";
+import { searchMovies, getPopularMovies } from "../../services/api";
 function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [movies, setMovies] = useState([]);
